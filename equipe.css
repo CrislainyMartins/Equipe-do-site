@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.geral{
+ 
+        background-color: grey;
+        padding: 10px;
+        width: 1500px;
+        margin: 0 auto;
+
+    }
+
+    .p{
+        display:flex;
+      
+    }
+
+    .fotos{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .foto{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin-top:30px;
+        margin-left: 100px;
+        
+    }
+
+    .paragrafo{
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+
+
+
+    .paragrafos{
+        margin-left: 900px;
+        margin-top: 30px;
+    }
+
+    .nome{
+        margin-left: -70px;
+        font-family:Palatino, URW Palladio L, serif
+        
+    }
+    .pa{
+        display: flex;    
+    }
+    .funcao{
+      margin-left: -70px;
+      font-family:Palatino, URW Palladio L, serif
+      text-align: justify;
+      font-size: 20px;
+    }
+    
+    .descricao{
+      margin-left: -70px;
+      text-align: justify;
+      letter-spacing:-1px;
+    }
+    
+    h3{
+      font-size: 20px;
+      font-family: Palatino, URW Palladio L, serif;
+    }
+    
+    p{
+      font-family: Palatino, URW Palladio L, serif;
+    }
+    .grande{
+      font-size: 20px;
+      font-family: Palatino, URW Palladio L, serif
+    }
+    
+    .normal{
+      font-family:Palatino, URW Palladio L, serif;
+      letter-spacing:-1px;
+      text-align: justify;
+      
+    }
+    
+    .pessoa1{
+      margin-right: 70px;
+    }
+    
+    .local{
+      display: flex;
+    }
+    
+    .logotipo{
+      width: 40px;
+      height: 40px;
+      border: 2px solid black;
+      border-radius: 50%;
+      margin-left: 20px;
+      
+    }
+    .local{
+      margin-left: 1300px;
+    }
+    
+    
+
+    
+
+
+
+    
+    
+
+
+
+  
