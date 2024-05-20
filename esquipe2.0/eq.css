@@ -62,38 +62,40 @@
   }
 
   .geral{
-    width: 700px;
-    height: 1000px;
+    width: 100%;
+    display: flex;
     margin: 0 auto;
-    background-image: url(img/1.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
   }
 
-  .imagens{
+  .coluna1{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+  }
+ .coluna2{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+
+  
+}
+
+.grupo1,.grupo2,.grupo3,.grupo4{
+
+    justify-content: space-evenly;
+
+}
+
+.imagens{
     width: 100px;
     height: 190px;
     border: 2px solid transparent;
     border-radius: 10px;
-  }
-
-  .grupo1{
-    display: flex;
-    justify-content: space-evenly;
-    
-  }
-
-  .grupo2{
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .grupo3{
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .grupo4{
-    display: flex;
-    justify-content: space-evenly;
   }
