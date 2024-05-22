@@ -1,3 +1,149 @@
+/* HEADER */
+.header {
+  grid-area: header;
+  background: linear-gradient(52deg, rgba(0,0,0,1) 37%, rgba(0,0,0,0.8575805322128851) 60%, rgba(0,0,0,0.7287289915966386) 93%);
+  padding: 30px 60px;;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.logo h1 {
+  letter-spacing: 3px;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  display: block;
+  padding: 10px;
+  color: rgba(255,255,255,.8);
+  font-size: 1.125em;
+  border-radius: 10px;
+  transition: all .5s;
+}
+
+.nav li:last-child a {
+  background: rgba(255,255,255);
+  color: #000;
+}
+
+.nav li:last-child a:hover {
+  background: rgba(255,255,255, .8);
+  color: #000;
+}
+
+.nav a:hover {
+  background: rgba(255,255,255);
+  color: #000;
+}
+
+.nav i {
+  display: block;
+  padding: 10px;
+  font-size: 1.125em;
+  color: rgba(255,255,255,.8);
+  margin: 0 15px;
+}
+
+.nav li + li {
+  margin-left: 30px;
+}
+
+.header a h1 {
+  color: #fff;
+  font-size: 2.75em;
+}
+
+/* SIDENAV */
+.sidenav {
+  grid-area: sidenav;
+  background: #1e1e24;
+  height: 100vh;
+  width: 6em;
+  position: fixed;
+  transition: width 200ms ease;
+  z-index:1;
+}
+
+.sidenav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav li {
+  width: 100%;
+  text-align: center;
+}
+
+.sidenav li:last-child {
+  margin-top: auto;
+}
+
+.sidenav a {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: #fff;
+  filter: grayscale(100%) opacity(0.7);
+  transition: filter 100ms ease;
+  transition: background 200ms ease;
+
+}
+
+.sidenav a:hover {
+  filter: grayscale(0%) opacity(1);
+  background: #19191E;
+}
+
+.sidenav li:first-child a {
+  filter: grayscale(0%) opacity(1);
+}
+
+.sidenav li:first-child a:hover {
+  background: #1e1e24;
+}
+
+.sidenav span {
+  display: none;
+  margin-left: 1rem;
+  font-size: 1.225em;
+}
+
+.sidenav i {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+  font-size: 1.5em;
+}
+
+.side_logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.3ch;
+  
+
+}
+
+.sidenav:hover {
+  width: 16rem;
+}
+
+.sidenav:hover span {
+  display: block;
+}
+
+/*equipe*/
 .card {
     position: relative;
     width: 200px;
@@ -65,24 +211,32 @@
     width: 100%;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 150px;
+    
+    
    
   }
 
   .coluna1{
-    background-color: aquamarine;
+    color: #71A0FF;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     width: 600px;
     height: 600px;
+    margin-left: 190px;
+    margin-top: 100px;
   }
  .coluna2{
-    background-color: red;
+   
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     width: 600px;
     height: 600px;
+    margin-left: 190px;
+    margin-top: 100px;
+    
 
   
 }
